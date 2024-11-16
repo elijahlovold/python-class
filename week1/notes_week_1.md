@@ -4,6 +4,12 @@
 
 * scheduling
 
+* think about dec 2
+
+* dec 6 
+* dec 13 
+* dec 25 - jan 2
+
 * environment setup & tooling: 
     * python
     * ide
