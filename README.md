@@ -1,16 +1,17 @@
 class schedule: 
 
 notes week 1: 
-
 * environment setup & tooling: 
 * intro to computers
 * variables
 
 notes week 2: 
-
 * control code 
-* functions
 * scope
+* lists
+
+notes week 3: 
+* functions
 
 remaining topics: 
 
