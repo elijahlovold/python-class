@@ -5,6 +5,9 @@ notes week 1:
 * environment setup & tooling: 
 * intro to computers
 * variables
+
+notes week 2: 
+
 * control code 
 * functions
 * scope

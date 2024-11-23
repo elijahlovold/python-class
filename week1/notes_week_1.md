@@ -61,42 +61,13 @@
 
 * operators
 
-* control code 
-    basic: 
-    * if - else
-    * for 
-    * while 
-
-    less basic:         --- revisit this
-    * break
-    * continue
-    * pass
-    * match 
-    * else (for loop)
-
-* functions
-    * defintion 
-    * input parameters 
-        *args           --- revisit this 
-        **kwargs        --- revisit this
-    * outputs
-    * local and global functions
-
 
 ## In-class examples
 
 ### basic 
 * hello world
 
-### control
-* rock-paper-scissors
-
-### loops
-* factorial
-* multiply table
-
 
 ## In-class assignments 
 
-* fibonacci
-* number guessing game
+* calculator script
