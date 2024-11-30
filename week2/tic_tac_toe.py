@@ -17,6 +17,17 @@ for _ in range(N):
         row.append('-')
     grid.append(row)
 
+# row1 = ['-', '-', '-']
+# row2 = ['-', '-', '-']
+# row3 = ['-', '-', '-']
+
+# grid = [row1, row2, row3]
+
+# select_row = grid[0]
+# select_row[1] = 'O'
+
+# grid[0][1] = 'O'
+
 # print the grid 
 for row in grid: 
     r_str = '' 
