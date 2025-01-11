@@ -10,4 +10,5 @@ from even_odd import eval_even_odd
     ]
 )
 def test_check_even_odd(nums, expected):
-    assert eval_even_odd(nums) == expected
+    for n, ex in zip(nums, expected): 
+        assert eval_even_odd(n) == ex

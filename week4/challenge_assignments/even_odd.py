@@ -1,5 +1,5 @@
 
 def eval_even_odd(n: int) -> str: 
-    # TODO: return "Even" or "Odd"
-
-    return ""
+    if n & 1: 
+        return "odd"
+    return "even"
