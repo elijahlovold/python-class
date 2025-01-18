@@ -4,3 +4,5 @@ Input Arguments:
 n (int): The number to check for primality.
 """
 
+def is_prime(): 
+    pass

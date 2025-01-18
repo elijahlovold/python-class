@@ -4,3 +4,5 @@ Input Arguments:
 lst (list): A list of elements that may contain duplicates.
 """
 
+def remove_duplicates(): 
+    pass

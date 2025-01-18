@@ -4,3 +4,5 @@ Input Arguments:
 s (str): The string to check.
 """
 
+def is_palindrome(): 
+    pass
