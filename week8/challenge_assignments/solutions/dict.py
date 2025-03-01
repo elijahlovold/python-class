@@ -21,6 +21,7 @@ def create_character(
     - strength: int, strength attribute of the character
     - agility: int, agility attribute of the character
     - intelligence: int, intelligence attribute of the character
+    - level: int, overall character level
 
     Returns:
     - dict: character stats including name, class, race, level, and attributes
@@ -55,6 +56,7 @@ def display_stats(character: dict) -> dict:
         "Strength: 10"
         "Agility: 8"
         "Intelligence: 6"
+        "Level: 1"
 
     Parameters:
     - character: dict, the character whose stats to display

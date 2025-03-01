@@ -10,7 +10,7 @@ def test_key_in_nested_dict():
 
 @pytest.fixture
 def default_character():
-    return create_character("Alderan", "Warrior", "Human", 10, 8, 6)
+    return create_character("Alderan", "Warrior", "Human", 10, 8, 6, 1)
 
 def test_create_character(default_character):
     assert default_character["name"] == "Alderan"
@@ -38,3 +38,4 @@ def test_display_stats(default_character, capsys):
     assert "Strength: 10" in captured.out
     assert "Agility: 8" in captured.out
     assert "Intelligence: 6" in captured.out
+    assert "Level: 1" in captured.out
