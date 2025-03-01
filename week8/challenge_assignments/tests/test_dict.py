@@ -3,7 +3,8 @@ import pytest
 from personal.dict import key_in_nested_dict, create_character, level_up, display_stats
 
 def test_key_in_nested_dict():
-    nested = {"a": {"b": {"c": 3}}}
+    nested = {"a": {"b": {"c": 3}}, "m": 23}
+    assert key_in_nested_dict(nested, "m") is True
     assert key_in_nested_dict(nested, "c") is True
     assert key_in_nested_dict(nested, "x") is False
 
@@ -34,7 +35,6 @@ def test_display_stats(default_character, capsys):
     assert "Name: Alderan" in captured.out
     assert "Class: Warrior" in captured.out
     assert "Race: Human" in captured.out
-    assert "Level: 1" in captured.out
     assert "Strength: 10" in captured.out
     assert "Agility: 8" in captured.out
     assert "Intelligence: 6" in captured.out

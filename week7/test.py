@@ -21,6 +21,15 @@ character = {
             },
     }
 
+for _, item in character.items(): 
+    # if is_a_dict? : 
+    #     if call_function(d=item, key=key): 
+    #        return True
+    pass
+
+
+# return False
+
 # easier to access like this
 foods = character["foods"]
 list_of_proteins = foods["proteins"]
