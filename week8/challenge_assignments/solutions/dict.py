@@ -9,7 +9,8 @@ def create_character(
         race: str, 
         strength: int, 
         agility: int, 
-        intelligence: int
+        intelligence: int,
+        level: int,
         ) -> dict:
     """
     Creates a character with the given attributes.
